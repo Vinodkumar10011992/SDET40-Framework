@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-20T16:41:03 IST" name="Default suite" finished-at="2022-09-20T16:41:22 IST" duration-ms="19502">
+    <groups>
+    </groups>
+    <test started-at="2022-09-20T16:41:03 IST" name="Default test" finished-at="2022-09-20T16:41:22 IST" duration-ms="19502">
+      <class name="AutomationTestCases.AutomationTestCase1_ClickRestaurantOrderTheFoodTest">
+        <test-method is-config="true" signature="ClassSetUp()[pri:0, instance:AutomationTestCases.AutomationTestCase1_ClickRestaurantOrderTheFoodTest@506ae4d4]" started-at="2022-09-20T16:41:03 IST" name="ClassSetUp" finished-at="2022-09-20T16:41:08 IST" duration-ms="4945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassSetUp -->
+        <test-method is-config="true" signature="methodSetup1()[pri:0, instance:AutomationTestCases.AutomationTestCase1_ClickRestaurantOrderTheFoodTest@506ae4d4]" started-at="2022-09-20T16:41:08 IST" name="methodSetup1" finished-at="2022-09-20T16:41:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup1 -->
+        <test-method signature="TestCase1Test()[pri:0, instance:AutomationTestCases.AutomationTestCase1_ClickRestaurantOrderTheFoodTest@506ae4d4]" started-at="2022-09-20T16:41:08 IST" name="TestCase1Test" finished-at="2022-09-20T16:41:21 IST" duration-ms="13316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase1Test -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:AutomationTestCases.AutomationTestCase1_ClickRestaurantOrderTheFoodTest@506ae4d4]" started-at="2022-09-20T16:41:21 IST" name="methodTearDown" finished-at="2022-09-20T16:41:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="ClassTearDown()[pri:0, instance:AutomationTestCases.AutomationTestCase1_ClickRestaurantOrderTheFoodTest@506ae4d4]" started-at="2022-09-20T16:41:21 IST" name="ClassTearDown" finished-at="2022-09-20T16:41:22 IST" duration-ms="1193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClassTearDown -->
+      </class> <!-- AutomationTestCases.AutomationTestCase1_ClickRestaurantOrderTheFoodTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
