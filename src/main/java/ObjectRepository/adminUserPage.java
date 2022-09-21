@@ -20,7 +20,7 @@ public adminUserPage(WebDriver driver) {
 }
 
 //users name -Vinod 
-
+//Bogar Vinod 
 public void clickDeleteTab(String userName, WebDriverUtility webDriverUtility) {
 	webDriverUtility.convertDynamicXpathIntoWebElement(dynamicXpath, userName, driver).click();
 	System.out.println("User deleted sucessfully");
