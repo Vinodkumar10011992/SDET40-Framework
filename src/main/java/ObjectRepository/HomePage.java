@@ -10,6 +10,7 @@ public class HomePage {
 	// Decclaration 
 	WebDriver driver;
 	// Vinodkumar Bogar
+	//Hi 
 	
 	 private String dynamicXpath="//a[text()='%s']/ancestor::div[@class='content']//div/following-sibling::div//a[text()='Order Now']";  //---> %S ProductName
 	 private String dynamicXpath1="//a[.='%s']/ancestor::div/following-sibling::div//span[@class='price pull-left']/following-sibling::input[@class='btn theme-btn']";  //---> %S ProductName
