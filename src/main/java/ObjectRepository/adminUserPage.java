@@ -19,7 +19,6 @@ public adminUserPage(WebDriver driver) {
 	PageFactory.initElements(driver, this);
 }
 
-//users name updated 
 
 public void clickDeleteTab(String userName, WebDriverUtility webDriverUtility) {
 	webDriverUtility.convertDynamicXpathIntoWebElement(dynamicXpath, userName, driver).click();
