@@ -18,12 +18,7 @@ public adminUserPage(WebDriver driver) {
 	this.driver=driver;
 	PageFactory.initElements(driver, this);
 }
-<<<<<<< HEAD
-//hi
-=======
-
-
->>>>>>> branch 'SDET40-01' of https://github.com/Vinodkumar10011992/SDET40-Framework.git
+//Hi
 public void clickDeleteTab(String userName, WebDriverUtility webDriverUtility) {
 	webDriverUtility.convertDynamicXpathIntoWebElement(dynamicXpath, userName, driver).click();
 	System.out.println("User deleted sucessfully");
