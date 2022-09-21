@@ -52,8 +52,6 @@ public class BaseClass {
 	public static WebDriver sdriver;
 
 	
-	
-
 	/**
 	 * Intialize the all Utility class Open the Excel, PropertyFile Read the
 	 * Commondata Create the instance for the browser(launch browser) maximize,
@@ -99,8 +97,6 @@ public class BaseClass {
 		soft=new SoftAssert();
 	}
 
-	
-
 	// Login to the browser
 	/**
 	 * Whenever we create the testscript class for module and test annotation method
@@ -115,7 +111,6 @@ public class BaseClass {
 	@AfterMethod
 	public void methodTearDown() {
 		
-	
 		
 	}
 

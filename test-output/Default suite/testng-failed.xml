@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.sder40.practice.MavenPractice1">
+      <class name="AutomationTestCases.AutomationTestCase1_ClickRestaurantOrderTheFoodTest">
         <methods>
-          <include name="step1Test"/>
+          <include name="methodTearDown"/>
+          <include name="TestCase1Test"/>
+          <include name="ClassSetUp"/>
+          <include name="methodSetup1"/>
+          <include name="ClassTearDown"/>
         </methods>
-      </class> <!-- org.sder40.practice.MavenPractice1 -->
+      </class> <!-- AutomationTestCases.AutomationTestCase1_ClickRestaurantOrderTheFoodTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
