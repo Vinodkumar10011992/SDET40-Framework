@@ -18,7 +18,7 @@ public adminUserPage(WebDriver driver) {
 	this.driver=driver;
 	PageFactory.initElements(driver, this);
 }
-
+//hi
 public void clickDeleteTab(String userName, WebDriverUtility webDriverUtility) {
 	webDriverUtility.convertDynamicXpathIntoWebElement(dynamicXpath, userName, driver).click();
 	System.out.println("User deleted sucessfully");
